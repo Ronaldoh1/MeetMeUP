@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		F21737981AC0B88F00220D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21737971AC0B88F00220D4B /* main.m */; };
 		F217379B1AC0B88F00220D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F217379A1AC0B88F00220D4B /* AppDelegate.m */; };
-		F217379E1AC0B88F00220D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F217379D1AC0B88F00220D4B /* ViewController.m */; };
+		F217379E1AC0B88F00220D4B /* EventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F217379D1AC0B88F00220D4B /* EventTableViewController.m */; };
 		F21737A11AC0B88F00220D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F217379F1AC0B88F00220D4B /* Main.storyboard */; };
 		F21737A31AC0B88F00220D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21737A21AC0B88F00220D4B /* Images.xcassets */; };
 		F21737A61AC0B88F00220D4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21737A41AC0B88F00220D4B /* LaunchScreen.xib */; };
 		F21737B21AC0B88F00220D4B /* MeetMeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21737B11AC0B88F00220D4B /* MeetMeUpTests.m */; };
+		F21737BD1AC12CF700220D4B /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = F21737BC1AC12CF700220D4B /* Event.m */; };
+		F21737C11AC1427F00220D4B /* meetup.png in Resources */ = {isa = PBXBuildFile; fileRef = F21737C01AC1427F00220D4B /* meetup.png */; };
+		F21737C31AC1605500220D4B /* meetupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F21737C21AC1605500220D4B /* meetupicon.png */; };
+		F21737C61AC1ADBB00220D4B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21737C51AC1ADBB00220D4B /* WebViewController.m */; };
+		F21737C91AC1CD4A00220D4B /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21737C81AC1CD4A00220D4B /* EventDetailViewController.m */; };
+		F2961DE21AC5423D00035ECA /* EventDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2961DE11AC5423D00035ECA /* EventDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,24 @@
 		F21737971AC0B88F00220D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F21737991AC0B88F00220D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F217379A1AC0B88F00220D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F217379C1AC0B88F00220D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F217379D1AC0B88F00220D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F217379C1AC0B88F00220D4B /* EventTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventTableViewController.h; sourceTree = "<group>"; };
+		F217379D1AC0B88F00220D4B /* EventTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTableViewController.m; sourceTree = "<group>"; };
 		F21737A01AC0B88F00220D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F21737A21AC0B88F00220D4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F21737A51AC0B88F00220D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F21737AB1AC0B88F00220D4B /* MeetMeUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetMeUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21737B01AC0B88F00220D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F21737B11AC0B88F00220D4B /* MeetMeUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetMeUpTests.m; sourceTree = "<group>"; };
+		F21737BB1AC12CF700220D4B /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		F21737BC1AC12CF700220D4B /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		F21737C01AC1427F00220D4B /* meetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetup.png; sourceTree = "<group>"; };
+		F21737C21AC1605500220D4B /* meetupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetupicon.png; sourceTree = "<group>"; };
+		F21737C41AC1ADBB00220D4B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		F21737C51AC1ADBB00220D4B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
+		F21737C71AC1CD4A00220D4B /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		F21737C81AC1CD4A00220D4B /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		F2961DE01AC5423D00035ECA /* EventDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDownloader.h; path = ../EventDownloader.h; sourceTree = "<group>"; };
+		F2961DE11AC5423D00035ECA /* EventDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventDownloader.m; path = ../EventDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +99,20 @@
 			children = (
 				F21737991AC0B88F00220D4B /* AppDelegate.h */,
 				F217379A1AC0B88F00220D4B /* AppDelegate.m */,
-				F217379C1AC0B88F00220D4B /* ViewController.h */,
-				F217379D1AC0B88F00220D4B /* ViewController.m */,
+				F217379C1AC0B88F00220D4B /* EventTableViewController.h */,
+				F217379D1AC0B88F00220D4B /* EventTableViewController.m */,
+				F21737C71AC1CD4A00220D4B /* EventDetailViewController.h */,
+				F21737C81AC1CD4A00220D4B /* EventDetailViewController.m */,
+				F21737BB1AC12CF700220D4B /* Event.h */,
+				F21737BC1AC12CF700220D4B /* Event.m */,
+				F2961DE01AC5423D00035ECA /* EventDownloader.h */,
+				F2961DE11AC5423D00035ECA /* EventDownloader.m */,
+				F21737C41AC1ADBB00220D4B /* WebViewController.h */,
+				F21737C51AC1ADBB00220D4B /* WebViewController.m */,
 				F217379F1AC0B88F00220D4B /* Main.storyboard */,
 				F21737A21AC0B88F00220D4B /* Images.xcassets */,
+				F21737C01AC1427F00220D4B /* meetup.png */,
+				F21737C21AC1605500220D4B /* meetupicon.png */,
 				F21737A41AC0B88F00220D4B /* LaunchScreen.xib */,
 				F21737951AC0B88F00220D4B /* Supporting Files */,
 			);
@@ -199,7 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21737C31AC1605500220D4B /* meetupicon.png in Resources */,
 				F21737A11AC0B88F00220D4B /* Main.storyboard in Resources */,
+				F21737C11AC1427F00220D4B /* meetup.png in Resources */,
 				F21737A61AC0B88F00220D4B /* LaunchScreen.xib in Resources */,
 				F21737A31AC0B88F00220D4B /* Images.xcassets in Resources */,
 			);
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F217379E1AC0B88F00220D4B /* ViewController.m in Sources */,
+				F21737C91AC1CD4A00220D4B /* EventDetailViewController.m in Sources */,
+				F21737BD1AC12CF700220D4B /* Event.m in Sources */,
+				F21737C61AC1ADBB00220D4B /* WebViewController.m in Sources */,
+				F217379E1AC0B88F00220D4B /* EventTableViewController.m in Sources */,
 				F217379B1AC0B88F00220D4B /* AppDelegate.m in Sources */,
 				F21737981AC0B88F00220D4B /* main.m in Sources */,
+				F2961DE21AC5423D00035ECA /* EventDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +444,7 @@
 				F21737B71AC0B88F00220D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21737B81AC0B88F00220D4B /* Build configuration list for PBXNativeTarget "MeetMeUpTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +453,7 @@
 				F21737BA1AC0B88F00220D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

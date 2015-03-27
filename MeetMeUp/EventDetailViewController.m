@@ -1,27 +1,29 @@
 //
-//  ViewController.m
+//  EventDetailViewController.m
 //  MeetMeUp
 //
-//  Created by Ronald Hernandez on 3/23/15.
+//  Created by Ronald Hernandez on 3/24/15.
 //  Copyright (c) 2015 Ron. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EventDetailViewController.h"
 
-@interface ViewController ()
+@interface EventDetailViewController ()
 
 @end
 
-@implementation ViewController
+@implementation EventDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end
